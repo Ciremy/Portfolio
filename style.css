@@ -129,5 +129,71 @@ section > div{
   margin: 10px 0px ;
 }
 
+.lang{
+  flex-flow: column;
+}
 
+.lang progress{
+  display: flex;
+  width: auto;
+  height: 40px;
+}
 
+.lang h3{
+  margin: 7px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.cantauImage{
+  flex: 0 1 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  flex-direction: row;
+}
+
+.cantauImage div {
+  text-align: center;
+  margin: 15px;
+}
+
+.cantauImage img{
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.cantauImage img:hover{
+  transform: scale(1.2);
+  transition: 300ms;
+}
+
+.cantauChateau{
+  flex: 0 1 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  flex-direction: row;
+}
+
+.cantauChateau div {
+  text-align: center;
+  margin: 15px;
+}
+
+.cantauChateau img{
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.cantauChateau img:hover{
+  transform: scale(1.2);
+  transition: 300ms;
