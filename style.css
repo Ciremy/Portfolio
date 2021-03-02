@@ -7,7 +7,7 @@
 }
 
 body{
-  background: #ececec;
+  background: #dad6d6;
 }
 
 p{
@@ -64,69 +64,11 @@ section{
 section h2{
   margin: 20px 0;
   width: 90%;
+  text-align: center;
 }
 
 section > div{
   width: 90%;
-}
-
-.presentation{
-  border-bottom: 2px dashed #ccc;
-}
-
-.exp{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.expLogo{
-  display: inline-flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.expDesc{
-  display: inline-flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hobbiesWrapper{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-
-.hobbies{
-  flex: 0 1 50%;
-  justify-content: space-around;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  width: 50%;
-  flex-direction: column;
-}
-
-.hobbies img{
-  width: 20vw;
-  height: 20vw;
-  object-fit: cover;
-  border-radius: 50%; 
-  box-shadow: 0pc 0px 15px #555;
-  transition: 200ms;
-}
-
-.hobbies img:hover{
-  transform: scale(1.2);
-  transition: 300ms;
-}
-
-
-.hobbies p{
-  font-size: 20px;
-  margin: 10px 0px ;
 }
 
 .lang{
@@ -145,55 +87,6 @@ section > div{
   justify-content: center;
 }
 
-.cantauImage{
-  flex: 0 1 50%;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  width: 100%;
-  flex-direction: row;
+h2{
+  font-size: 45px;
 }
-
-.cantauImage div {
-  text-align: center;
-  margin: 15px;
-}
-
-.cantauImage img{
-  width: 20vw;
-  height: 20vw;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.cantauImage img:hover{
-  transform: scale(1.2);
-  transition: 300ms;
-}
-
-.cantauChateau{
-  flex: 0 1 50%;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  width: 100%;
-  flex-direction: row;
-}
-
-.cantauChateau div {
-  text-align: center;
-  margin: 15px;
-}
-
-.cantauChateau img{
-  width: 20vw;
-  height: 20vw;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.cantauChateau img:hover{
-  transform: scale(1.2);
-  transition: 300ms;
