@@ -1,0 +1,53 @@
+.cantauImage{
+    flex: 0 1 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    flex-direction: row;
+  }
+  
+  .cantauImage div {
+    text-align: center;
+    margin: 15px;
+  }
+  
+  .cantauImage img{
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .cantauImage img:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+  }
+  .hobbiesWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .hobbies{
+    width: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+  }
+  
+  .hobbies img{
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+  }  
+  
+  .hobbies p{
+    font-size: 20px;
+    margin: 10px ;
+    text-align: center;
+  }
+  .resume{
+      text-align: center;
+  }
